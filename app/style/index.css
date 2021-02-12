@@ -1,0 +1,159 @@
+aside, details, main, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+audio, canvas, iframe, img, svg, video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+summary {
+    display: list-item;
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
+}
+
+progress {
+    vertical-align: baseline;
+}
+
+ul, menu {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    overflow-x: hidden;
+    display: block;
+    background: #d5cfd9;
+    color: #1c1e21;
+    height: 100%;
+    position: relative;
+    font: normal 16px "Montserrat";
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    max-width: 536px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header__row {
+    max-width: 620px;
+}
+
+.header__menu-exit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu-exit > ul {
+    margin: 16px 0 0 0;
+    padding: 0;
+    display: flex;
+}
+
+.header__menu-exit > ul > li {
+    position: relative;
+    padding: 3px;
+    display: block;
+    margin-left: 10px;
+    transition: all 0.2s linear;
+}
+
+.header__menu-exit > ul > li:hover i {
+    color: #2e5fd4;
+}
+
+.header__menu-exit > ul > li > i {
+    font-size: 26px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+.article__row {
+    margin: 16px auto;
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 32px 48px;
+    border: 1px solid #edeff1;
+}
+
+.article__row .flex {
+    display: block;
+}
+
+.flex {
+    text-align: center;
+}
+
+.flex-2 {
+    margin-top: 16px;
+}
+
+.ip > .ip__title {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.ip > .ip__text {
+    display: block;
+    font-size: 38px;
+    letter-spacing: 1px;
+    color: #50565e;
+    font-weight: 700;
+}
+
+.data > dl {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    display: flex;
+}
+
+.data > dl > dt {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: right;
+    flex: 0 0 46%;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.data > dl > dd {
+    font-size: 14px;
+    text-align: center;
+    color: #50565e;
+    font-weight: 700;
+}
